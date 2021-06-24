@@ -17,10 +17,17 @@ int main()
 int call(int x,int y)
 {
     int i,ans=1;
+    if(y==0)
+    {
+        ans=1;
+    }
+    else
+    {
     for(i=0;i<y;i++)
     {
         ans=ans*x;
         call(x,y-1);
+    }
     }
     return ans;
 }
