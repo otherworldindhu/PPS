@@ -20,3 +20,4 @@ int facto(int x)
     }
     return fact;
 }
+/*this program is wrong.redo*/
